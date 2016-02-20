@@ -14,6 +14,16 @@
 		D9CD392B1C78ACB300F26435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CD39291C78ACB300F26435 /* LaunchScreen.storyboard */; };
 		D9CD39361C78ACB300F26435 /* UberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD39351C78ACB300F26435 /* UberTests.swift */; };
 		D9CD39411C78ACB300F26435 /* UberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD39401C78ACB300F26435 /* UberUITests.swift */; };
+		D9CD395C1C78AF3500F26435 /* BaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD395B1C78AF3500F26435 /* BaseInfo.swift */; };
+		D9CD395E1C78AF5600F26435 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD395D1C78AF5600F26435 /* UserInfo.swift */; };
+		D9CD39601C78AF7D00F26435 /* FxOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD395F1C78AF7D00F26435 /* FxOperation.swift */; };
+		D9CD39621C78AF9700F26435 /* FxLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD39611C78AF9700F26435 /* FxLogin.swift */; };
+		D9CD39641C78AFAA00F26435 /* FxRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD39631C78AFAA00F26435 /* FxRegister.swift */; };
+		D9CD39661C78AFD900F26435 /* FxBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD39651C78AFD900F26435 /* FxBaseController.swift */; };
+		D9CD39691C78B04400F26435 /* FxBasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD39681C78B04400F26435 /* FxBasePage.swift */; };
+		D9CD396B1C78B06800F26435 /* GuidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD396A1C78B06800F26435 /* GuidePage.swift */; };
+		D9CD396D1C78B07D00F26435 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD396C1C78B07D00F26435 /* LoginPage.swift */; };
+		D9CD396F1C78B09000F26435 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD396E1C78B09000F26435 /* RegisterPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		D9CD393C1C78ACB300F26435 /* UberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CD39401C78ACB300F26435 /* UberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberUITests.swift; sourceTree = "<group>"; };
 		D9CD39421C78ACB300F26435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CD395B1C78AF3500F26435 /* BaseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInfo.swift; sourceTree = "<group>"; };
+		D9CD395D1C78AF5600F26435 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		D9CD395F1C78AF7D00F26435 /* FxOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxOperation.swift; sourceTree = "<group>"; };
+		D9CD39611C78AF9700F26435 /* FxLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxLogin.swift; sourceTree = "<group>"; };
+		D9CD39631C78AFAA00F26435 /* FxRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxRegister.swift; sourceTree = "<group>"; };
+		D9CD39651C78AFD900F26435 /* FxBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxBaseController.swift; sourceTree = "<group>"; };
+		D9CD39681C78B04400F26435 /* FxBasePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxBasePage.swift; sourceTree = "<group>"; };
+		D9CD396A1C78B06800F26435 /* GuidePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidePage.swift; sourceTree = "<group>"; };
+		D9CD396C1C78B07D00F26435 /* LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		D9CD396E1C78B09000F26435 /* RegisterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,16 @@
 		D9CD391F1C78ACB300F26435 /* Uber */ = {
 			isa = PBXGroup;
 			children = (
+				D9CD395A1C78AEFE00F26435 /* Frameworks */,
+				D9CD394E1C78AEE100F26435 /* DB */,
+				D9CD394F1C78AEE100F26435 /* Define */,
+				D9CD39501C78AEE100F26435 /* Global */,
+				D9CD39511C78AEE100F26435 /* Model */,
+				D9CD39521C78AEE100F26435 /* Operation */,
+				D9CD39531C78AEE100F26435 /* Resources */,
+				D9CD39571C78AEE100F26435 /* ThirdSDK */,
+				D9CD39581C78AEE100F26435 /* Utility */,
+				D9CD39591C78AEE100F26435 /* View */,
 				D9CD39201C78ACB300F26435 /* AppDelegate.swift */,
 				D9CD39221C78ACB300F26435 /* ViewController.swift */,
 				D9CD39241C78ACB300F26435 /* Main.storyboard */,
@@ -123,6 +153,118 @@
 				D9CD39421C78ACB300F26435 /* Info.plist */,
 			);
 			path = UberUITests;
+			sourceTree = "<group>";
+		};
+		D9CD394E1C78AEE100F26435 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		D9CD394F1C78AEE100F26435 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		D9CD39501C78AEE100F26435 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		D9CD39511C78AEE100F26435 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9CD395B1C78AF3500F26435 /* BaseInfo.swift */,
+				D9CD395D1C78AF5600F26435 /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9CD39521C78AEE100F26435 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				D9CD395F1C78AF7D00F26435 /* FxOperation.swift */,
+				D9CD39611C78AF9700F26435 /* FxLogin.swift */,
+				D9CD39631C78AFAA00F26435 /* FxRegister.swift */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		D9CD39531C78AEE100F26435 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9CD39541C78AEE100F26435 /* Config */,
+				D9CD39551C78AEE100F26435 /* Image */,
+				D9CD39561C78AEE100F26435 /* Xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9CD39541C78AEE100F26435 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D9CD39551C78AEE100F26435 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D9CD39561C78AEE100F26435 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		D9CD39571C78AEE100F26435 /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		D9CD39581C78AEE100F26435 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D9CD39591C78AEE100F26435 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9CD39651C78AFD900F26435 /* FxBaseController.swift */,
+				D9CD39671C78AFF400F26435 /* Page */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9CD395A1C78AEFE00F26435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9CD39671C78AFF400F26435 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				D9CD39681C78B04400F26435 /* FxBasePage.swift */,
+				D9CD396A1C78B06800F26435 /* GuidePage.swift */,
+				D9CD396C1C78B07D00F26435 /* LoginPage.swift */,
+				D9CD396E1C78B09000F26435 /* RegisterPage.swift */,
+			);
+			path = Page;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +401,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9CD395E1C78AF5600F26435 /* UserInfo.swift in Sources */,
+				D9CD39601C78AF7D00F26435 /* FxOperation.swift in Sources */,
 				D9CD39231C78ACB300F26435 /* ViewController.swift in Sources */,
+				D9CD396F1C78B09000F26435 /* RegisterPage.swift in Sources */,
+				D9CD39691C78B04400F26435 /* FxBasePage.swift in Sources */,
+				D9CD395C1C78AF3500F26435 /* BaseInfo.swift in Sources */,
+				D9CD396D1C78B07D00F26435 /* LoginPage.swift in Sources */,
+				D9CD39641C78AFAA00F26435 /* FxRegister.swift in Sources */,
 				D9CD39211C78ACB300F26435 /* AppDelegate.swift in Sources */,
+				D9CD39661C78AFD900F26435 /* FxBaseController.swift in Sources */,
+				D9CD39621C78AF9700F26435 /* FxLogin.swift in Sources */,
+				D9CD396B1C78B06800F26435 /* GuidePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Uber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitmain.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +565,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Uber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitmain.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";

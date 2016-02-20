@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FxBasePage.swift
 //  Uber
 //
 //  Created by MoHuilin on 16/2/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FxBasePage: FxBaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,4 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
-
 }
-
