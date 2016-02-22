@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GuidePage" customModule="Uber" customModuleProvider="target">
+            <connections>
+                <outlet property="loginImageView" destination="aVT-ei-gmA" id="oGw-wM-J3f"/>
+                <outlet property="videoView" destination="owy-ai-8Mw" id="fUg-fq-7Eq"/>
+                <outlet property="view" destination="iN0-l3-epB" id="JNL-Vr-4AX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="owy-ai-8Mw" userLabel="VideoView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-067.png" translatesAutoresizingMaskIntoConstraints="NO" id="aVT-ei-gmA">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fR3-ha-G7i">
+                    <rect key="frame" x="30" y="587" width="147.5" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="q7J-fG-obA"/>
+                    </constraints>
+                    <state key="normal" title="登录">
+                        <color key="titleColor" red="0.81833600640000004" green="0.83922393510000004" blue="0.84899839740000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edg-Tc-ktT">
+                    <rect key="frame" x="197" y="587" width="147.5" height="50"/>
+                    <color key="backgroundColor" red="0.53944117621032939" green="1" blue="0.95865098345418853" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="kEq-Cj-NfS"/>
+                    </constraints>
+                    <state key="normal" title="注册">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="owy-ai-8Mw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0v4-fT-xut"/>
+                <constraint firstAttribute="trailing" secondItem="owy-ai-8Mw" secondAttribute="trailing" id="9lg-hc-osF"/>
+                <constraint firstAttribute="bottom" secondItem="fR3-ha-G7i" secondAttribute="bottom" constant="30" id="CwY-hx-rB7"/>
+                <constraint firstItem="edg-Tc-ktT" firstAttribute="top" secondItem="owy-ai-8Mw" secondAttribute="bottom" id="JmC-fX-V4U"/>
+                <constraint firstAttribute="bottom" secondItem="owy-ai-8Mw" secondAttribute="bottom" id="SgO-OI-Xb6"/>
+                <constraint firstItem="fR3-ha-G7i" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="V02-KA-z9W"/>
+                <constraint firstAttribute="trailing" secondItem="aVT-ei-gmA" secondAttribute="trailing" id="VgH-b4-fdz"/>
+                <constraint firstAttribute="trailing" secondItem="edg-Tc-ktT" secondAttribute="trailing" constant="30" id="ZOB-i8-Trf"/>
+                <constraint firstAttribute="bottom" secondItem="aVT-ei-gmA" secondAttribute="bottom" id="efP-8E-e5y"/>
+                <constraint firstItem="aVT-ei-gmA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fyP-PL-1Oo"/>
+                <constraint firstItem="owy-ai-8Mw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jO2-ZE-BJh"/>
+                <constraint firstItem="edg-Tc-ktT" firstAttribute="leading" secondItem="fR3-ha-G7i" secondAttribute="trailing" constant="20" id="ktc-30-lMv"/>
+                <constraint firstAttribute="bottom" secondItem="edg-Tc-ktT" secondAttribute="bottom" constant="30" id="mZh-Vg-DDk"/>
+                <constraint firstItem="aVT-ei-gmA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sKZ-U4-1Tr"/>
+                <constraint firstItem="edg-Tc-ktT" firstAttribute="width" secondItem="fR3-ha-G7i" secondAttribute="width" id="tRp-05-u13"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="JmC-fX-V4U"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo-067.png" width="277" height="277"/>
+    </resources>
+</document>
